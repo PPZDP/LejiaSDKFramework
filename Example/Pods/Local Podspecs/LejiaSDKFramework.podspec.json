@@ -1,0 +1,27 @@
+{
+  "name": "LejiaSDKFramework",
+  "version": "0.1.0",
+  "summary": "carrobot iOS Screen Framework",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sawrysc@163.com/LejiaSDKFramework",
+  "license": "MIT",
+  "authors": {
+    "sawrysc@163.com": "jiarui.li@carrobot.com"
+  },
+  "source": {
+    "git": "https://github.com/sawrysc@163.com/LejiaSDKFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LejiaSDKFramework/Classes/**/*",
+  "dependencies": {
+    "SSZipArchive": [
+      "~> 2.1.4"
+    ],
+    "CocoaAsyncSocket": [
+      "~> 7.6.3"
+    ]
+  }
+}

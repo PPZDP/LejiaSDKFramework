@@ -1,0 +1,27 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - LejiaSDKFramework (0.1.0):
+    - CocoaAsyncSocket (~> 7.6.3)
+    - SSZipArchive (~> 2.1.4)
+  - SSZipArchive (2.1.4)
+
+DEPENDENCIES:
+  - LejiaSDKFramework (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  LejiaSDKFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  LejiaSDKFramework: 5c70e713c22a2a71a7cd581ecffb029652d9e504
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
+
+PODFILE CHECKSUM: 15ed8524651db447e7aa5c3de3d2f62abe7c9dc2
+
+COCOAPODS: 1.6.0.beta.2

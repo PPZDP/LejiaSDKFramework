@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		2134925C72B667970A39622D /* Pods-LejiaSDKFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LejiaSDKFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-LejiaSDKFramework_Tests/Pods-LejiaSDKFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2B5E216BB0DDD2D41BB90AD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2B5E216BB0DDD2D41BB90AD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2BD664B53BB683F908E3209D /* Pods_LejiaSDKFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LejiaSDKFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E1ABEBCB54BB638DCD16A46 /* LejiaSDKFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LejiaSDKFramework.podspec; path = ../LejiaSDKFramework.podspec; sourceTree = "<group>"; };
+		4E1ABEBCB54BB638DCD16A46 /* LejiaSDKFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LejiaSDKFramework.podspec; path = ../LejiaSDKFramework.podspec; sourceTree = "<group>"; };
 		5E794BBD355762E6E8C9562C /* Pods-LejiaSDKFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LejiaSDKFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-LejiaSDKFramework_Example/Pods-LejiaSDKFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LejiaSDKFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LejiaSDKFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		879D7819E017CE6EF392858A /* Pods-LejiaSDKFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LejiaSDKFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-LejiaSDKFramework_Example/Pods-LejiaSDKFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CFEAA57E1E612B88E3D4ABE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CFEAA57E1E612B88E3D4ABE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E15D250B106F0E5042B2B6A2 /* Pods_LejiaSDKFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LejiaSDKFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E8516B024E9A7B03BDFD1A /* Pods-LejiaSDKFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LejiaSDKFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LejiaSDKFramework_Tests/Pods-LejiaSDKFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				F3E8516B024E9A7B03BDFD1A /* Pods-LejiaSDKFramework_Tests.debug.xcconfig */,
 				2134925C72B667970A39622D /* Pods-LejiaSDKFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "sawrysc@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 86KBC6T99Q;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -348,13 +351,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LejiaSDKFramework_Example/Pods-LejiaSDKFramework_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/LejiaSDKFramework/LejiaSDKFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LejiaSDKFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -498,12 +505,17 @@
 			baseConfigurationReference = 879D7819E017CE6EF392858A /* Pods-LejiaSDKFramework_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KBC6T99Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LejiaSDKFramework/LejiaSDKFramework-Prefix.pch";
 				INFOPLIST_FILE = "LejiaSDKFramework/LejiaSDKFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -513,12 +525,17 @@
 			baseConfigurationReference = 5E794BBD355762E6E8C9562C /* Pods-LejiaSDKFramework_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KBC6T99Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LejiaSDKFramework/LejiaSDKFramework-Prefix.pch";
 				INFOPLIST_FILE = "LejiaSDKFramework/LejiaSDKFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
