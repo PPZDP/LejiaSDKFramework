@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C68A0EC4224A22C1009ED6EE /* CRtest.m in Sources */ = {isa = PBXBuildFile; fileRef = C68A0EC3224A22C1009ED6EE /* CRtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		879D7819E017CE6EF392858A /* Pods-LejiaSDKFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LejiaSDKFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-LejiaSDKFramework_Example/Pods-LejiaSDKFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C68A0EC2224A22C1009ED6EE /* CRtest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRtest.h; sourceTree = "<group>"; };
+		C68A0EC3224A22C1009ED6EE /* CRtest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRtest.m; sourceTree = "<group>"; };
 		CFEAA57E1E612B88E3D4ABE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E15D250B106F0E5042B2B6A2 /* Pods_LejiaSDKFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LejiaSDKFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E8516B024E9A7B03BDFD1A /* Pods-LejiaSDKFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LejiaSDKFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LejiaSDKFramework_Tests/Pods-LejiaSDKFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 				4E1ABEBCB54BB638DCD16A46 /* LejiaSDKFramework.podspec */,
 				CFEAA57E1E612B88E3D4ABE8 /* README.md */,
 				2B5E216BB0DDD2D41BB90AD2 /* LICENSE */,
+				C68A0EC2224A22C1009ED6EE /* CRtest.h */,
+				C68A0EC3224A22C1009ED6EE /* CRtest.m */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -375,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68A0EC4224A22C1009ED6EE /* CRtest.m in Sources */,
 				6003F59E195388D20070C39A /* CRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -511,7 +517,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LejiaSDKFramework/LejiaSDKFramework-Prefix.pch";
 				INFOPLIST_FILE = "LejiaSDKFramework/LejiaSDKFramework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -531,7 +537,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LejiaSDKFramework/LejiaSDKFramework-Prefix.pch";
 				INFOPLIST_FILE = "LejiaSDKFramework/LejiaSDKFramework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

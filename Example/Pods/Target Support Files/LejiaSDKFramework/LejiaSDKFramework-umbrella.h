@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "person.h"
 
 FOUNDATION_EXPORT double LejiaSDKFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char LejiaSDKFrameworkVersionString[];

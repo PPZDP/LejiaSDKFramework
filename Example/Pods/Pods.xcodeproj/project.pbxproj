@@ -8,67 +8,68 @@
 
 /* Begin PBXBuildFile section */
 		02CB9EDB7F6D7B1B6FA0119E732F5ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A20B772930AAD13994A345FBC01C8D /* Foundation.framework */; };
+		0703E3CD2AA0EBE2E11412E27C1E5E0E /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E33675E51268BB4C6D9ED66D5C3600 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08466DF22A18D00AACAAC20E2ED40277 /* LejiaSDKFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C3DDB94423D41152E2DB9B1287B296 /* LejiaSDKFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		085228743A04A1F53FAE17BD214339DB /* LejiaSDKFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E888A5DDC7E7D0E3B7E1ECF64B4B59C /* LejiaSDKFramework-dummy.m */; };
+		089B623C2604DDF6F6A7F6034E8911D2 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 15DAE793EC524D37EA33D15CE0D5B8C3 /* ioapi_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		09DCAE72CADB3D5CDAEE45447554D05C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50921D642314EC653A8612F11CAFFDD4 /* Security.framework */; };
-		0DF1E04F8983F7252606786E5927486C /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E33675E51268BB4C6D9ED66D5C3600 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1932116C433C4E12846B92AFC92230DC /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA246D9DA8C3AF0CA80C860B1CC848D /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C017489F0AA3D53B152F4EBA9E76F08 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECA745F9775F0233CA66A6ADA351AF5 /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12E237C06591DDCE699F0C921A9A770E /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1C801887BD901F58645966E796A713 /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18BEFF275761B3811B6791D59A2C6028 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B436C35D6EBFB7599070DD525B2616 /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1A1CEFBCB076C6BD269E2663D8981C7D /* Pods-LejiaSDKFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F892BE880BDC76FDDCF572CD1BBBBA51 /* Pods-LejiaSDKFramework_Tests-dummy.m */; };
-		1AA06AE1A9FE94A936CDAFD5CC84BC21 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 5212B12BACE4FC9A86C8B6E8B8913C70 /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1D1677BF456C3FECDA9F19B56D44E3F3 /* ioapi_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = D3CCB671752F63F72353042A34F393B5 /* ioapi_mem.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1DE9C2B15B81CE70E33CBED1EBB58CD1 /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = CC391AF69FEDF434862DC3417693623D /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1F1EA32716AB96F0E00CDB4DFE23D68C /* ioapi_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = AB0643525E38335C6D3381626011F1B2 /* ioapi_buf.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1F91624828637F33826D94FC2F2179AA /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7FEFF3EF95D471100830474F5496C3 /* SSZipArchive-dummy.m */; };
+		2459FADA04D9DAD5B55179D3E3C01E73 /* ioapi_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = D3CCB671752F63F72353042A34F393B5 /* ioapi_mem.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		276F082DA0A032AB6F2998B3A8E2FA96 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB4BB9AE0DEF9CD7622C2A275B6366E /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30169A0026017D898DAC180CC3218F79 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC944400DE4DC77A817191A26B16DBE /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		475A7DB65CA7329B8DE8F6271666CE4C /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C098FA59126598AD6FD3CB9AA172E99 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BBB7FEF069CBB6132E62088720EF4EE /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E65933908A98FC65368374207403A49 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4D2A0C5F14EAE2B866A1B9FEF8CDEE2D /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E95776227D07A449DD5A4B026B62A53 /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		32A087095D26BE145E9835E9C110BDE0 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 63F00D3C43D26F6AD1E659C185C4D1C8 /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33402BF833A5156BEC5E89F8E24287DD /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = FB89A2FFB646BBAD05FFDDC1F6BE9106 /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39F8313F41335EF6279FDC5A762AFDEA /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = B15D89B2394AFB4C3FB025CD42C04074 /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A3C5BA17180D8A45540E4625B260A32 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = C0E19FA65A1F2530E281ED23BCC68215 /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4024BBBD2AD54AE77EFA4C8698722B3F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D594438CB927DF023BEF0F92498D695 /* ReplaceMe.m */; };
+		4738E8860EEC3C412DB628DCBB14A072 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAED3C091F3A0481B51D5DACDD794FE /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AF692765BCD04C272DDD4002C2872A4 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = A3F05268B13165D8F350C330F3411AFB /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4DD91D98D18ED91B6110AD1CCEBF0176 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = D93DDD6E7CF5376F3AAAF032CA9EF71D /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E1AD692808EB6E66D53CEAC75462CB7 /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97B9A4BBF44175A95571F374734FB9E /* SSZipArchive.framework */; };
 		4EB100FF9229539CA4094551779BF2BE /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF5ADB46111CE9153A01B2B7DE351B /* CocoaAsyncSocket-dummy.m */; };
-		546721C05400933D4982CF07DD39E994 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 977B5B0B20DCCF7368E3A1015B1478CC /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		62B0F37DBE00673C8A8D81A3AA1965C7 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = D93DDD6E7CF5376F3AAAF032CA9EF71D /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		63AF3499097C5CAF601A97CC839E0B54 /* aes_ni.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6F8B6CE0630C6C36D4F329DF08DAF9 /* aes_ni.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		63F4E85DB165CE824A411E0761FFF99F /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECA745F9775F0233CA66A6ADA351AF5 /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6809F5B97F8DD9A797EE17701169C587 /* minishared.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A514BA2F2E1A7ACC4100F521D8ACA8 /* minishared.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		68DC8C464660B7B713A479A40D1313D6 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 63F00D3C43D26F6AD1E659C185C4D1C8 /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6B15F561FC296515451DD1BE6BCAC28D /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97B9A4BBF44175A95571F374734FB9E /* SSZipArchive.framework */; };
+		4F28D280F0EFC35323A76DBD5B8AE5D0 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C098FA59126598AD6FD3CB9AA172E99 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		541B9ED562BA9E875174C577B8543AC6 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA246D9DA8C3AF0CA80C860B1CC848D /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60D6FE595495B2FFEF06E7CABAF2E2AD /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E19356D605719E8AA1CE5AE2A03EE4D /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D54F85AF067E7CCAD17EF38615ABA8A /* minishared.c in Sources */ = {isa = PBXBuildFile; fileRef = B1112D666838B82381AA5653E68984AE /* minishared.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6F8A76916EE3E0094C20C1E94C7987A7 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E65933908A98FC65368374207403A49 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7275066ECB2D4FC8FD0ADC8F415CFB02 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B91997FEA612DCB6EC2D0FAF95D1E7 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		736463C7BAEC936E2EFB4435AEB93DFA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF6D2376B174FAF6B8AE763FD09EB0F /* CFNetwork.framework */; };
 		73C5CDF81148EBE2C9F996D4B5D0E9BC /* Pods-LejiaSDKFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A63A38FC45A60E3785CF4A63BD9DB247 /* Pods-LejiaSDKFramework_Example-dummy.m */; };
-		77737F8690A833AB1DDAA751270B0E69 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = A3F05268B13165D8F350C330F3411AFB /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7A6612A2DF94C2ACA11CCE179188AD10 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9102BE76E870D805A2173367565507E7 /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7ECFCF1E0DA205C704056723E585864D /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 36820B34AE828C3DDF120E462D59EBB7 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8247299E67B6C98BB549AB4D29F6708B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = C0E19FA65A1F2530E281ED23BCC68215 /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		841E8CC05B89D442779C62A746569160 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 15DAE793EC524D37EA33D15CE0D5B8C3 /* ioapi_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D0B6F21A8CBD2E66D3B65515D1FE366 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E379B01FE471B94796D6873E2A60D73 /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7ED59BB6CD661E1272E8597919B5E2E9 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 032D3A0B29DEB16130DDF0847245D2D5 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		84D92FC60D98C077AB3A6D56AEBE8FEB /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = DB36417C7C9ACE4C14B14AEA57116669 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8589AABB3A8A7373260EA323CA97A301 /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E19356D605719E8AA1CE5AE2A03EE4D /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85C13B17197A72979F1177F142D01B63 /* LejiaSDKFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD4C5AF2554251097BCE5EEEDB5E536 /* LejiaSDKFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A23657710E65F0D7287C3FA30CF9A0B /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = F33A02053E2931D66ED2078D18ACC001 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91C7DCF9C5B6DBB7F0FBB40A67190734 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = FB89A2FFB646BBAD05FFDDC1F6BE9106 /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86F03C792E836F419BF5AED98BF75FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A20B772930AAD13994A345FBC01C8D /* Foundation.framework */; };
+		8D0BCEEE4881ED9BC75E8C12CCE2DC90 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 36820B34AE828C3DDF120E462D59EBB7 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		93456F8A6C7BA0A7D31F52852905988B /* Pods-LejiaSDKFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8BE22A0DA930F1A4C34EE7AD68C84 /* Pods-LejiaSDKFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		946B8DE90A7C6B3872C82AA2AF240118 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A573C4199BCD31DC6040F5BBF7551DB /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CFFF284D5919464E810F90E692165CB /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E379B01FE471B94796D6873E2A60D73 /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A0A3F8178E933E41D5DB83C15ABFD341 /* aes_ni.c in Sources */ = {isa = PBXBuildFile; fileRef = 378133482198DDA7047BF1D55987337A /* aes_ni.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A1B22D0E7E6E56F8281E4137EB224D55 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAED3C091F3A0481B51D5DACDD794FE /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A38AA848E60E1A0EAD00BC84BB5CC156 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B436C35D6EBFB7599070DD525B2616 /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A3F0117A0F16C94F373E19832D34DA0C /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 032D3A0B29DEB16130DDF0847245D2D5 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A6D1C8896E1F907D98173CA7B04D8397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A20B772930AAD13994A345FBC01C8D /* Foundation.framework */; };
+		946D3648626765D5FE4B9C7B81ECC629 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 977B5B0B20DCCF7368E3A1015B1478CC /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A37FCE16D9066E166A4C94081988DC9B /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = CC391AF69FEDF434862DC3417693623D /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3AB61BDB857AB42EE1B175F81C9DEF1 /* minishared.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A514BA2F2E1A7ACC4100F521D8ACA8 /* minishared.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AC166C66311BCAAAD1D9289A80E51CCF /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C33C2089AEB86F80C812F1301D530DE /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B33A1B2F905A1570048EB26BC8DC7FE8 /* minishared.c in Sources */ = {isa = PBXBuildFile; fileRef = B1112D666838B82381AA5653E68984AE /* minishared.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B9EA7B02006B1A689A83456AB138ECE3 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2E2E826ADF0DDB199B3043015902A9 /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BA22EF701FF3B5250677DA3C59E3CE37 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = B15D89B2394AFB4C3FB025CD42C04074 /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BB346E56A7E88BDB7E3CC280651B40CD /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 165CD2BD399EA124F5FDAD13A8BC857A /* ioapi_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D1E3B8880DA2E16805208249C1AE56CE /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1C801887BD901F58645966E796A713 /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D5FEBAD7DBFDE9169D0C3C7DA74C132A /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = B38765BC35847A128AC429EAA84D8813 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC86CBE9662482AEF148461226FFBBC2 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2E2E826ADF0DDB199B3043015902A9 /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACEFBFBBCF24C4DAD98826F64F94CE58 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 165CD2BD399EA124F5FDAD13A8BC857A /* ioapi_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1A6DA9767152FFC4E6BBD323F47A663 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = F33A02053E2931D66ED2078D18ACC001 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2AA2580B8D51EDD464445D8495FB985 /* aes_ni.c in Sources */ = {isa = PBXBuildFile; fileRef = 378133482198DDA7047BF1D55987337A /* aes_ni.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B7BAFAEB1495EFD97F6BBB74A52EFE33 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 5212B12BACE4FC9A86C8B6E8B8913C70 /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE74F3DA156E840C067FDF17FF482817 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9102BE76E870D805A2173367565507E7 /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1400BDD6E52C37FA317A5201C38E45F /* ioapi_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = AB0643525E38335C6D3381626011F1B2 /* ioapi_buf.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C424E12ADF462A5BA0DACC545C7111F6 /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 35759C3014EBEC021B07C16493B986DF /* crypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C52C15A21DCCF42455FCCBB14A61D572 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7FEFF3EF95D471100830474F5496C3 /* SSZipArchive-dummy.m */; };
+		C7C7A27FED7A6EE0A8367197A0213471 /* person.h in Headers */ = {isa = PBXBuildFile; fileRef = C13A0523568F9FA7FA4FF9ED16C05ED7 /* person.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D14D0E72B06BC4BB8A1D0703F0F7D3C2 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA8B1DF78D9845694446FAAB058B9ED /* CocoaAsyncSocket.framework */; };
+		D2B05665BFA9BF7E248FFA30A66946B5 /* aes_ni.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6F8B6CE0630C6C36D4F329DF08DAF9 /* aes_ni.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2D0A8A1D3E9FFADE4D9384CC4F47F13 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 980A9ADBD9E600FAAB9F6B10C167DCA0 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3166E4BAF0B06A875C973BE8B9D3AAD /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E95776227D07A449DD5A4B026B62A53 /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DBAF81CC805C6DBD38A13EE3194C2539 /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = B38765BC35847A128AC429EAA84D8813 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DEB68244BDA7EFAD2A6E57377EF72A51 /* Pods-LejiaSDKFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A182222E07F4AF597ECC8D14D861F9 /* Pods-LejiaSDKFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF67152DB518EF6FF674E18FE460CFF2 /* LejiaSDKFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C47C090EB397F742AE8C76E3468195 /* LejiaSDKFramework-dummy.m */; };
 		DFC5D26DB038F73638A1FC04C885C9AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A20B772930AAD13994A345FBC01C8D /* Foundation.framework */; };
-		E3E70AD7F8BFED0E0BE4625A8D062C79 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F90B5827BEE377EAFFE82CDEDDEA59 /* ReplaceMe.m */; };
-		E3EF3DF4276AB7911A786F2D966F8603 /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6C7D0CF3F94016BFEE08C5500027E2 /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E5A09B289A9869D2D0F9462C3073BBB3 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B91997FEA612DCB6EC2D0FAF95D1E7 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB93BF6BA9F93B5E082E9A2B5E23B1B1 /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 35759C3014EBEC021B07C16493B986DF /* crypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EC0C5761362BE6E7027FDA9E765CFA6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A20B772930AAD13994A345FBC01C8D /* Foundation.framework */; };
-		ED1D050C431A6014E167CD03334CD6AB /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 980A9ADBD9E600FAAB9F6B10C167DCA0 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EF656086C22702AB1C01B09BE42C7721 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA8B1DF78D9845694446FAAB058B9ED /* CocoaAsyncSocket.framework */; };
-		F40FBDD8066CC8494A1BD6BD6C27E4D0 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA8AB26F73EE5C9510ABCE18B0947C /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E8AA15435BECC3716BA31C68D1905C4D /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA8AB26F73EE5C9510ABCE18B0947C /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F088331B67EB91B6589E3673097815A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A20B772930AAD13994A345FBC01C8D /* Foundation.framework */; };
 		FE74DDE3A7E5926FAD43157A026AE627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A20B772930AAD13994A345FBC01C8D /* Foundation.framework */; };
+		FEDEE10D0C3DA3433A2E18FF6A29D6EE /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6C7D0CF3F94016BFEE08C5500027E2 /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,22 +77,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9E43D4D6840207D02F4BB26A7DAB44F4;
+			remoteGlobalIDString = F369E690C3DD63C07646D261099C5B26;
 			remoteInfo = LejiaSDKFramework;
 		};
-		93B2A42E9BA79BE75C4B38D675395BF6 /* PBXContainerItemProxy */ = {
+		3FECABA756BC309A8D3A3612ADADBBA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B9DF9483A1959AA844761A67623D23D4;
+			remoteGlobalIDString = 79CD2011951C630D93C31783455D446F;
 			remoteInfo = SSZipArchive;
-		};
-		A01E47474FEBD1937F1BF52805DD569E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB9F16A11CCB7B75DFD4C14783C83019;
-			remoteInfo = CocoaAsyncSocket;
 		};
 		B0032EF45A714DB72E38866C1B7EB8B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -104,10 +98,17 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B9DF9483A1959AA844761A67623D23D4;
+			remoteGlobalIDString = 79CD2011951C630D93C31783455D446F;
 			remoteInfo = SSZipArchive;
 		};
 		D379574FB953D1E5AE3E3866F9EC2FA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9F16A11CCB7B75DFD4C14783C83019;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		E48F665ECC3C37EE0C1E19267A48128D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -118,9 +119,8 @@
 
 /* Begin PBXFileReference section */
 		032D3A0B29DEB16130DDF0847245D2D5 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = SSZipArchive/minizip/aes/hmac.c; sourceTree = "<group>"; };
-		053E8481C8C572A5366F24DE5490147D /* LejiaSDKFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LejiaSDKFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0560C5A62C632AE4B784832399E21943 /* Pods_LejiaSDKFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LejiaSDKFramework_Example.framework; path = "Pods-LejiaSDKFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		09A17A41833CF13799F33C64CB4034FA /* LejiaSDKFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LejiaSDKFramework.modulemap; sourceTree = "<group>"; };
+		08555C98ACC4B5FC92AA76387B712C15 /* LejiaSDKFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LejiaSDKFramework-prefix.pch"; sourceTree = "<group>"; };
 		0A573C4199BCD31DC6040F5BBF7551DB /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		0B098D7A0C833A1D0A15DD9EC321FB3B /* Pods-LejiaSDKFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LejiaSDKFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0C098FA59126598AD6FD3CB9AA172E99 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/minizip/aes/aes.h; sourceTree = "<group>"; };
@@ -145,11 +145,13 @@
 		37F8DD3FFEFD9BECAA5C63C848563808 /* Pods-LejiaSDKFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LejiaSDKFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		3BAED3C091F3A0481B51D5DACDD794FE /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/minizip/aes/brg_endian.h; sourceTree = "<group>"; };
 		3C1C801887BD901F58645966E796A713 /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/minizip/aes/prng.h; sourceTree = "<group>"; };
+		3E888A5DDC7E7D0E3B7E1ECF64B4B59C /* LejiaSDKFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LejiaSDKFramework-dummy.m"; sourceTree = "<group>"; };
 		3E95776227D07A449DD5A4B026B62A53 /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwd2key.c; path = SSZipArchive/minizip/aes/pwd2key.c; sourceTree = "<group>"; };
 		4848E9CF35826805C64A1C0C49139081 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 		4FFF5ADB46111CE9153A01B2B7DE351B /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 		50921D642314EC653A8612F11CAFFDD4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		5212B12BACE4FC9A86C8B6E8B8913C70 /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aestab.c; path = SSZipArchive/minizip/aes/aestab.c; sourceTree = "<group>"; };
+		58C3DDB94423D41152E2DB9B1287B296 /* LejiaSDKFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LejiaSDKFramework-umbrella.h"; sourceTree = "<group>"; };
 		5AB4BB9AE0DEF9CD7622C2A275B6366E /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		5B6F8B6CE0630C6C36D4F329DF08DAF9 /* aes_ni.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_ni.h; path = SSZipArchive/minizip/aes/aes_ni.h; sourceTree = "<group>"; };
 		5E65933908A98FC65368374207403A49 /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aescrypt.c; path = SSZipArchive/minizip/aes/aescrypt.c; sourceTree = "<group>"; };
@@ -165,30 +167,30 @@
 		7B6EA98495CC8E6FC6B7ABD0BD11DDD9 /* Pods-LejiaSDKFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LejiaSDKFramework_Example.modulemap"; sourceTree = "<group>"; };
 		7C003B3123D466E5DDCCDD55D3A87169 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
 		7D0D1CF689DA1FECC7D82CA3BF81F166 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		7D594438CB927DF023BEF0F92498D695 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LejiaSDKFramework/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		82D6E5025ED343B46BB81D9A101B801C /* Pods-LejiaSDKFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LejiaSDKFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CF92251C2AA3F1E35257E22F08DE9FF /* Pods-LejiaSDKFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LejiaSDKFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9102BE76E870D805A2173367565507E7 /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
 		920426C1091BF62598FF160E32CDF1B6 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSZipArchive.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		977B5B0B20DCCF7368E3A1015B1478CC /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aeskey.c; path = SSZipArchive/minizip/aes/aeskey.c; sourceTree = "<group>"; };
 		980A9ADBD9E600FAAB9F6B10C167DCA0 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
-		9823B5093C1919238CC433C9978B84F8 /* LejiaSDKFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LejiaSDKFramework-Info.plist"; sourceTree = "<group>"; };
 		A0B6B34AEEAB33CF5E9AB28EA9821C84 /* Pods-LejiaSDKFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LejiaSDKFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A3AD57577C157C00B49E598B49E43B62 /* LejiaSDKFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LejiaSDKFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3F05268B13165D8F350C330F3411AFB /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fileenc.c; path = SSZipArchive/minizip/aes/fileenc.c; sourceTree = "<group>"; };
 		A63A38FC45A60E3785CF4A63BD9DB247 /* Pods-LejiaSDKFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LejiaSDKFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		A7A20B772930AAD13994A345FBC01C8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A9F90B5827BEE377EAFFE82CDEDDEA59 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LejiaSDKFramework/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A95BBAC23073E1271383C13A38B2960F /* LejiaSDKFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LejiaSDKFramework.modulemap; sourceTree = "<group>"; };
 		AB0643525E38335C6D3381626011F1B2 /* ioapi_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi_buf.c; path = SSZipArchive/minizip/ioapi_buf.c; sourceTree = "<group>"; };
+		ADDD8AFEA8C399AD09CEE5C674D9F4DE /* LejiaSDKFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LejiaSDKFramework.xcconfig; sourceTree = "<group>"; };
 		B1112D666838B82381AA5653E68984AE /* minishared.c */ = {isa = PBXFileReference; includeInIndex = 1; name = minishared.c; path = SSZipArchive/minizip/minishared.c; sourceTree = "<group>"; };
 		B15D89B2394AFB4C3FB025CD42C04074 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
-		B27D4E66819665D9727D44664FED57E9 /* LejiaSDKFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LejiaSDKFramework-prefix.pch"; sourceTree = "<group>"; };
-		B2C47C090EB397F742AE8C76E3468195 /* LejiaSDKFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LejiaSDKFramework-dummy.m"; sourceTree = "<group>"; };
+		B29E1FF56D5098225CBA83CF6409790D /* LejiaSDKFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LejiaSDKFramework-Info.plist"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B38765BC35847A128AC429EAA84D8813 /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/minizip/aes/fileenc.h; sourceTree = "<group>"; };
 		B5BC31B3E7D9350435E3AD4F169C691D /* Pods-LejiaSDKFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LejiaSDKFramework_Example-Info.plist"; sourceTree = "<group>"; };
 		B97B9A4BBF44175A95571F374734FB9E /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFD4C5AF2554251097BCE5EEEDB5E536 /* LejiaSDKFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LejiaSDKFramework-umbrella.h"; sourceTree = "<group>"; };
 		C0E19FA65A1F2530E281ED23BCC68215 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
-		C5FB3592EFFE70FD0D2B155D3F5E7B91 /* LejiaSDKFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LejiaSDKFramework.xcconfig; sourceTree = "<group>"; };
+		C13A0523568F9FA7FA4FF9ED16C05ED7 /* person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
 		CC391AF69FEDF434862DC3417693623D /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/minizip/aes/brg_types.h; sourceTree = "<group>"; };
 		CD6C7D0CF3F94016BFEE08C5500027E2 /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/minizip/aes/pwd2key.h; sourceTree = "<group>"; };
 		CD7FEFF3EF95D471100830474F5496C3 /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
@@ -198,43 +200,33 @@
 		D652A3B7BFACC9333BB68971EA92C7A5 /* SSZipArchive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSZipArchive-Info.plist"; sourceTree = "<group>"; };
 		D73E5C4D4CD458A13E6BC75EB08C91BB /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		D93DDD6E7CF5376F3AAAF032CA9EF71D /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha1.c; path = SSZipArchive/minizip/aes/sha1.c; sourceTree = "<group>"; };
-		D9A4B204AB4910B0AADD92F8659E63DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DB36417C7C9ACE4C14B14AEA57116669 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
 		DFA246D9DA8C3AF0CA80C860B1CC848D /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/minizip/aes/hmac.h; sourceTree = "<group>"; };
 		E79ACAC5C5F8DC5A960637AC0AB72BE5 /* Pods_LejiaSDKFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LejiaSDKFramework_Tests.framework; path = "Pods-LejiaSDKFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2E2E826ADF0DDB199B3043015902A9 /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/minizip/aes/aesopt.h; sourceTree = "<group>"; };
+		EE2186AB25375A8D1F54F9343FF15EBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EF0884132281F9B84445E5B4C99FFB9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F0B436C35D6EBFB7599070DD525B2616 /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/minizip/aes/aestab.h; sourceTree = "<group>"; };
 		F33A02053E2931D66ED2078D18ACC001 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
 		F892BE880BDC76FDDCF572CD1BBBBA51 /* Pods-LejiaSDKFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LejiaSDKFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		F914CEFDB4A1A35E4F91431E464AADBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FB89A2FFB646BBAD05FFDDC1F6BE9106 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
 		FDC944400DE4DC77A817191A26B16DBE /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5CB3703588992312645D5D0C0DD6EBE3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF656086C22702AB1C01B09BE42C7721 /* CocoaAsyncSocket.framework in Frameworks */,
-				A6D1C8896E1F907D98173CA7B04D8397 /* Foundation.framework in Frameworks */,
-				6B15F561FC296515451DD1BE6BCAC28D /* SSZipArchive.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		662EB593F67E73C307A12ED3903D55DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC0C5761362BE6E7027FDA9E765CFA6F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6776958E4AC2E91EEE27A4511ED1AF1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FE74DDE3A7E5926FAD43157A026AE627 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728321E0CFB7E49444DB9C3DA641FE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F03C792E836F419BF5AED98BF75FCA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +237,16 @@
 				736463C7BAEC936E2EFB4435AEB93DFA /* CFNetwork.framework in Frameworks */,
 				02CB9EDB7F6D7B1B6FA0119E732F5ADF /* Foundation.framework in Frameworks */,
 				09DCAE72CADB3D5CDAEE45447554D05C /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36D551EFBDCBCC88F915D69BA55B4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14D0E72B06BC4BB8A1D0703F0F7D3C2 /* CocoaAsyncSocket.framework in Frameworks */,
+				F088331B67EB91B6589E3673097815A4 /* Foundation.framework in Frameworks */,
+				4E1AD692808EB6E66D53CEAC75462CB7 /* SSZipArchive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +261,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		057D7905735E0E168C9B2BC4CD433028 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A95BBAC23073E1271383C13A38B2960F /* LejiaSDKFramework.modulemap */,
+				ADDD8AFEA8C399AD09CEE5C674D9F4DE /* LejiaSDKFramework.xcconfig */,
+				3E888A5DDC7E7D0E3B7E1ECF64B4B59C /* LejiaSDKFramework-dummy.m */,
+				B29E1FF56D5098225CBA83CF6409790D /* LejiaSDKFramework-Info.plist */,
+				08555C98ACC4B5FC92AA76387B712C15 /* LejiaSDKFramework-prefix.pch */,
+				58C3DDB94423D41152E2DB9B1287B296 /* LejiaSDKFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LejiaSDKFramework";
+			sourceTree = "<group>";
+		};
 		12E85C492A89188A85E0CC2893CFC544 /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,20 +296,6 @@
 				50921D642314EC653A8612F11CAFFDD4 /* Security.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		325B61E686F2441C86C0AC92B3468E5D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				09A17A41833CF13799F33C64CB4034FA /* LejiaSDKFramework.modulemap */,
-				C5FB3592EFFE70FD0D2B155D3F5E7B91 /* LejiaSDKFramework.xcconfig */,
-				B2C47C090EB397F742AE8C76E3468195 /* LejiaSDKFramework-dummy.m */,
-				9823B5093C1919238CC433C9978B84F8 /* LejiaSDKFramework-Info.plist */,
-				B27D4E66819665D9727D44664FED57E9 /* LejiaSDKFramework-prefix.pch */,
-				BFD4C5AF2554251097BCE5EEEDB5E536 /* LejiaSDKFramework-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LejiaSDKFramework";
 			sourceTree = "<group>";
 		};
 		34E9DE98977BFA9439DBD826FA0265AF /* Frameworks */ = {
@@ -395,6 +397,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		652E9919DBF66D941276D9A1331DA036 /* CRAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C13A0523568F9FA7FA4FF9ED16C05ED7 /* person.h */,
+			);
+			name = CRAPI;
+			path = LejiaSDKFramework/Classes/CRAPI;
+			sourceTree = "<group>";
+		};
 		6CD3E8B2137AE1F8EF89128DFF5ACE17 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,7 +424,7 @@
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				CE6B9CEA294AF5D5EA5F29197FB4FF9D /* Development Pods */,
+				E746AC027DDA276819649CFA65CA590C /* Development Pods */,
 				34E9DE98977BFA9439DBD826FA0265AF /* Frameworks */,
 				6211BB18AA384DE8B378AE2765BA0772 /* Pods */,
 				8B1ABC33DCAD43BFCA1729BACA6EA94C /* Products */,
@@ -433,14 +444,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		971FF4DD584CF109CD082BEDD1051C4B /* Pod */ = {
+		8BAD445BA2131B42882C8D02A2614363 /* LejiaSDKFramework */ = {
 			isa = PBXGroup;
 			children = (
-				053E8481C8C572A5366F24DE5490147D /* LejiaSDKFramework.podspec */,
-				D9A4B204AB4910B0AADD92F8659E63DD /* LICENSE */,
-				F914CEFDB4A1A35E4F91431E464AADBC /* README.md */,
+				7D594438CB927DF023BEF0F92498D695 /* ReplaceMe.m */,
+				652E9919DBF66D941276D9A1331DA036 /* CRAPI */,
+				E53B2D6FFA0FFDC394152A4A108ACC9A /* Pod */,
+				057D7905735E0E168C9B2BC4CD433028 /* Support Files */,
 			);
-			name = Pod;
+			name = LejiaSDKFramework;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B5667E7A612053012A1F5D8A246D2043 /* Targets Support Files */ = {
@@ -466,62 +479,53 @@
 			path = "../Target Support Files/SSZipArchive";
 			sourceTree = "<group>";
 		};
-		CE6B9CEA294AF5D5EA5F29197FB4FF9D /* Development Pods */ = {
+		E53B2D6FFA0FFDC394152A4A108ACC9A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DE10339DE1526C88564687FEB10510ED /* LejiaSDKFramework */,
+				A3AD57577C157C00B49E598B49E43B62 /* LejiaSDKFramework.podspec */,
+				EE2186AB25375A8D1F54F9343FF15EBB /* LICENSE */,
+				EF0884132281F9B84445E5B4C99FFB9F /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		DE10339DE1526C88564687FEB10510ED /* LejiaSDKFramework */ = {
+		E746AC027DDA276819649CFA65CA590C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A9F90B5827BEE377EAFFE82CDEDDEA59 /* ReplaceMe.m */,
-				971FF4DD584CF109CD082BEDD1051C4B /* Pod */,
-				325B61E686F2441C86C0AC92B3468E5D /* Support Files */,
+				8BAD445BA2131B42882C8D02A2614363 /* LejiaSDKFramework */,
 			);
-			name = LejiaSDKFramework;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		449E5FA31F43C7BCDB10CA88F69FFFD0 /* Headers */ = {
+		A7CEA1F7F0F126BDDB1FF7AC0813ABFD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85C13B17197A72979F1177F142D01B63 /* LejiaSDKFramework-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73CBC2D6ADFE9C608E1C38461C74423B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				475A7DB65CA7329B8DE8F6271666CE4C /* aes.h in Headers */,
-				63AF3499097C5CAF601A97CC839E0B54 /* aes_ni.h in Headers */,
-				B9EA7B02006B1A689A83456AB138ECE3 /* aesopt.h in Headers */,
-				A38AA848E60E1A0EAD00BC84BB5CC156 /* aestab.h in Headers */,
-				A1B22D0E7E6E56F8281E4137EB224D55 /* brg_endian.h in Headers */,
-				1DE9C2B15B81CE70E33CBED1EBB58CD1 /* brg_types.h in Headers */,
-				ED1D050C431A6014E167CD03334CD6AB /* crypt.h in Headers */,
-				D5FEBAD7DBFDE9169D0C3C7DA74C132A /* fileenc.h in Headers */,
-				1932116C433C4E12846B92AFC92230DC /* hmac.h in Headers */,
-				91C7DCF9C5B6DBB7F0FBB40A67190734 /* ioapi.h in Headers */,
-				BB346E56A7E88BDB7E3CC280651B40CD /* ioapi_buf.h in Headers */,
-				841E8CC05B89D442779C62A746569160 /* ioapi_mem.h in Headers */,
-				6809F5B97F8DD9A797EE17701169C587 /* minishared.h in Headers */,
-				D1E3B8880DA2E16805208249C1AE56CE /* prng.h in Headers */,
-				E3EF3DF4276AB7911A786F2D966F8603 /* pwd2key.h in Headers */,
-				63F4E85DB165CE824A411E0761FFF99F /* sha1.h in Headers */,
-				8589AABB3A8A7373260EA323CA97A301 /* SSZipArchive-umbrella.h in Headers */,
-				8A23657710E65F0D7287C3FA30CF9A0B /* SSZipArchive.h in Headers */,
-				E5A09B289A9869D2D0F9462C3073BBB3 /* SSZipCommon.h in Headers */,
-				BA22EF701FF3B5250677DA3C59E3CE37 /* unzip.h in Headers */,
-				7ECFCF1E0DA205C704056723E585864D /* zip.h in Headers */,
-				0DF1E04F8983F7252606786E5927486C /* ZipArchive.h in Headers */,
+				4F28D280F0EFC35323A76DBD5B8AE5D0 /* aes.h in Headers */,
+				D2B05665BFA9BF7E248FFA30A66946B5 /* aes_ni.h in Headers */,
+				AC86CBE9662482AEF148461226FFBBC2 /* aesopt.h in Headers */,
+				18BEFF275761B3811B6791D59A2C6028 /* aestab.h in Headers */,
+				4738E8860EEC3C412DB628DCBB14A072 /* brg_endian.h in Headers */,
+				A37FCE16D9066E166A4C94081988DC9B /* brg_types.h in Headers */,
+				D2D0A8A1D3E9FFADE4D9384CC4F47F13 /* crypt.h in Headers */,
+				DBAF81CC805C6DBD38A13EE3194C2539 /* fileenc.h in Headers */,
+				541B9ED562BA9E875174C577B8543AC6 /* hmac.h in Headers */,
+				33402BF833A5156BEC5E89F8E24287DD /* ioapi.h in Headers */,
+				ACEFBFBBCF24C4DAD98826F64F94CE58 /* ioapi_buf.h in Headers */,
+				089B623C2604DDF6F6A7F6034E8911D2 /* ioapi_mem.h in Headers */,
+				A3AB61BDB857AB42EE1B175F81C9DEF1 /* minishared.h in Headers */,
+				12E237C06591DDCE699F0C921A9A770E /* prng.h in Headers */,
+				FEDEE10D0C3DA3433A2E18FF6A29D6EE /* pwd2key.h in Headers */,
+				0C017489F0AA3D53B152F4EBA9E76F08 /* sha1.h in Headers */,
+				60D6FE595495B2FFEF06E7CABAF2E2AD /* SSZipArchive-umbrella.h in Headers */,
+				B1A6DA9767152FFC4E6BBD323F47A663 /* SSZipArchive.h in Headers */,
+				7275066ECB2D4FC8FD0ADC8F415CFB02 /* SSZipCommon.h in Headers */,
+				39F8313F41335EF6279FDC5A762AFDEA /* unzip.h in Headers */,
+				8D0BCEEE4881ED9BC75E8C12CCE2DC90 /* zip.h in Headers */,
+				0703E3CD2AA0EBE2E11412E27C1E5E0E /* ZipArchive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +542,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				93456F8A6C7BA0A7D31F52852905988B /* Pods-LejiaSDKFramework_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F349229BB306AD163E1F02755BA1E5FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08466DF22A18D00AACAAC20E2ED40277 /* LejiaSDKFramework-umbrella.h in Headers */,
+				C7C7A27FED7A6EE0A8367197A0213471 /* person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +586,24 @@
 			productReference = E79ACAC5C5F8DC5A960637AC0AB72BE5 /* Pods_LejiaSDKFramework_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		79CD2011951C630D93C31783455D446F /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04760107407CBD259AF738B93B5F9FDD /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				A7CEA1F7F0F126BDDB1FF7AC0813ABFD /* Headers */,
+				A5D2D22FC923A4E7C1F813BAEC3C3F89 /* Sources */,
+				728321E0CFB7E49444DB9C3DA641FE53 /* Frameworks */,
+				196EA47AB001B747D80D9C4E13FBFF43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = 920426C1091BF62598FF160E32CDF1B6 /* SSZipArchive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9B4B3E088A3870758267C7E687F6F3F0 /* Pods-LejiaSDKFramework_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B25B719E035BFF8E1DA2476D62E64834 /* Build configuration list for PBXNativeTarget "Pods-LejiaSDKFramework_Example" */;
@@ -594,44 +625,6 @@
 			productReference = 0560C5A62C632AE4B784832399E21943 /* Pods_LejiaSDKFramework_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9E43D4D6840207D02F4BB26A7DAB44F4 /* LejiaSDKFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3A87C312D19FBC20908188B48940D223 /* Build configuration list for PBXNativeTarget "LejiaSDKFramework" */;
-			buildPhases = (
-				449E5FA31F43C7BCDB10CA88F69FFFD0 /* Headers */,
-				4FEE0A1C1D730E1A2B96E0002FA31FF3 /* Sources */,
-				5CB3703588992312645D5D0C0DD6EBE3 /* Frameworks */,
-				40545A54738BA6F9F5DF1A9E6C664404 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				67BCA57358D5D9BF9B05BB980517C83D /* PBXTargetDependency */,
-				5E7B20BB4BA537C8E70E6023ACB859C1 /* PBXTargetDependency */,
-			);
-			name = LejiaSDKFramework;
-			productName = LejiaSDKFramework;
-			productReference = 1E418921AC360EADF1559FDE5AAF8903 /* LejiaSDKFramework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B9DF9483A1959AA844761A67623D23D4 /* SSZipArchive */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1EC63F88A630FCA41303A12C9B4EC4A6 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
-			buildPhases = (
-				73CBC2D6ADFE9C608E1C38461C74423B /* Headers */,
-				35B1BE37988F2C7ADA2D2928749F88FA /* Sources */,
-				662EB593F67E73C307A12ED3903D55DB /* Frameworks */,
-				7FF0FAB8390A0EB8BCF5478E2C8A0ADB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SSZipArchive;
-			productName = SSZipArchive;
-			productReference = 920426C1091BF62598FF160E32CDF1B6 /* SSZipArchive.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		EB9F16A11CCB7B75DFD4C14783C83019 /* CocoaAsyncSocket */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB4B18BC646AD400FE52808E62839AB5 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
@@ -648,6 +641,26 @@
 			name = CocoaAsyncSocket;
 			productName = CocoaAsyncSocket;
 			productReference = CE44EB0B93C2DA8FC2F2FC8D47823293 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F369E690C3DD63C07646D261099C5B26 /* LejiaSDKFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6BCCA8FBCD1499B684617CDF0A400B3 /* Build configuration list for PBXNativeTarget "LejiaSDKFramework" */;
+			buildPhases = (
+				F349229BB306AD163E1F02755BA1E5FE /* Headers */,
+				3C36FDF292A7B3824B90B574BA5E100D /* Sources */,
+				B36D551EFBDCBCC88F915D69BA55B4EE /* Frameworks */,
+				EE16DCBD14371EAC2D8414C27B998619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D1CE0F1CC777C8C0DECF2A910CCBCF /* PBXTargetDependency */,
+				1E942B35110A3495F4342426524836EC /* PBXTargetDependency */,
+			);
+			name = LejiaSDKFramework;
+			productName = LejiaSDKFramework;
+			productReference = 1E418921AC360EADF1559FDE5AAF8903 /* LejiaSDKFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -672,16 +685,23 @@
 			projectRoot = "";
 			targets = (
 				EB9F16A11CCB7B75DFD4C14783C83019 /* CocoaAsyncSocket */,
-				9E43D4D6840207D02F4BB26A7DAB44F4 /* LejiaSDKFramework */,
+				F369E690C3DD63C07646D261099C5B26 /* LejiaSDKFramework */,
 				9B4B3E088A3870758267C7E687F6F3F0 /* Pods-LejiaSDKFramework_Example */,
 				5F40E58AA543695B6FC6B9234335BBAA /* Pods-LejiaSDKFramework_Tests */,
-				B9DF9483A1959AA844761A67623D23D4 /* SSZipArchive */,
+				79CD2011951C630D93C31783455D446F /* SSZipArchive */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0329E2994EEEEFA896516AB172228491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196EA47AB001B747D80D9C4E13FBFF43 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -695,13 +715,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40545A54738BA6F9F5DF1A9E6C664404 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7E577665681ECECB09A8D77175418B7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -709,7 +722,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FF0FAB8390A0EB8BCF5478E2C8A0ADB /* Resources */ = {
+		EE16DCBD14371EAC2D8414C27B998619 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -727,37 +740,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35B1BE37988F2C7ADA2D2928749F88FA /* Sources */ = {
+		3C36FDF292A7B3824B90B574BA5E100D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A3F8178E933E41D5DB83C15ABFD341 /* aes_ni.c in Sources */,
-				4BBB7FEF069CBB6132E62088720EF4EE /* aescrypt.c in Sources */,
-				546721C05400933D4982CF07DD39E994 /* aeskey.c in Sources */,
-				1AA06AE1A9FE94A936CDAFD5CC84BC21 /* aestab.c in Sources */,
-				EB93BF6BA9F93B5E082E9A2B5E23B1B1 /* crypt.c in Sources */,
-				77737F8690A833AB1DDAA751270B0E69 /* fileenc.c in Sources */,
-				A3F0117A0F16C94F373E19832D34DA0C /* hmac.c in Sources */,
-				7A6612A2DF94C2ACA11CCE179188AD10 /* ioapi.c in Sources */,
-				1F1EA32716AB96F0E00CDB4DFE23D68C /* ioapi_buf.c in Sources */,
-				1D1677BF456C3FECDA9F19B56D44E3F3 /* ioapi_mem.c in Sources */,
-				B33A1B2F905A1570048EB26BC8DC7FE8 /* minishared.c in Sources */,
-				68DC8C464660B7B713A479A40D1313D6 /* prng.c in Sources */,
-				4D2A0C5F14EAE2B866A1B9FEF8CDEE2D /* pwd2key.c in Sources */,
-				62B0F37DBE00673C8A8D81A3AA1965C7 /* sha1.c in Sources */,
-				1F91624828637F33826D94FC2F2179AA /* SSZipArchive-dummy.m in Sources */,
-				F40FBDD8066CC8494A1BD6BD6C27E4D0 /* SSZipArchive.m in Sources */,
-				8247299E67B6C98BB549AB4D29F6708B /* unzip.c in Sources */,
-				9CFFF284D5919464E810F90E692165CB /* zip.c in Sources */,
+				085228743A04A1F53FAE17BD214339DB /* LejiaSDKFramework-dummy.m in Sources */,
+				4024BBBD2AD54AE77EFA4C8698722B3F /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FEE0A1C1D730E1A2B96E0002FA31FF3 /* Sources */ = {
+		A5D2D22FC923A4E7C1F813BAEC3C3F89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF67152DB518EF6FF674E18FE460CFF2 /* LejiaSDKFramework-dummy.m in Sources */,
-				E3E70AD7F8BFED0E0BE4625A8D062C79 /* ReplaceMe.m in Sources */,
+				B2AA2580B8D51EDD464445D8495FB985 /* aes_ni.c in Sources */,
+				6F8A76916EE3E0094C20C1E94C7987A7 /* aescrypt.c in Sources */,
+				946D3648626765D5FE4B9C7B81ECC629 /* aeskey.c in Sources */,
+				B7BAFAEB1495EFD97F6BBB74A52EFE33 /* aestab.c in Sources */,
+				C424E12ADF462A5BA0DACC545C7111F6 /* crypt.c in Sources */,
+				4AF692765BCD04C272DDD4002C2872A4 /* fileenc.c in Sources */,
+				7ED59BB6CD661E1272E8597919B5E2E9 /* hmac.c in Sources */,
+				BE74F3DA156E840C067FDF17FF482817 /* ioapi.c in Sources */,
+				C1400BDD6E52C37FA317A5201C38E45F /* ioapi_buf.c in Sources */,
+				2459FADA04D9DAD5B55179D3E3C01E73 /* ioapi_mem.c in Sources */,
+				6D54F85AF067E7CCAD17EF38615ABA8A /* minishared.c in Sources */,
+				32A087095D26BE145E9835E9C110BDE0 /* prng.c in Sources */,
+				D3166E4BAF0B06A875C973BE8B9D3AAD /* pwd2key.c in Sources */,
+				4DD91D98D18ED91B6110AD1CCEBF0176 /* sha1.c in Sources */,
+				C52C15A21DCCF42455FCCBB14A61D572 /* SSZipArchive-dummy.m in Sources */,
+				E8AA15435BECC3716BA31C68D1905C4D /* SSZipArchive.m in Sources */,
+				3A3C5BA17180D8A45540E4625B260A32 /* unzip.c in Sources */,
+				7D0B6F21A8CBD2E66D3B65515D1FE366 /* zip.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,28 +795,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E7B20BB4BA537C8E70E6023ACB859C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSZipArchive;
-			target = B9DF9483A1959AA844761A67623D23D4 /* SSZipArchive */;
-			targetProxy = 93B2A42E9BA79BE75C4B38D675395BF6 /* PBXContainerItemProxy */;
-		};
-		67BCA57358D5D9BF9B05BB980517C83D /* PBXTargetDependency */ = {
+		02D1CE0F1CC777C8C0DECF2A910CCBCF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
 			target = EB9F16A11CCB7B75DFD4C14783C83019 /* CocoaAsyncSocket */;
-			targetProxy = A01E47474FEBD1937F1BF52805DD569E /* PBXContainerItemProxy */;
+			targetProxy = E48F665ECC3C37EE0C1E19267A48128D /* PBXContainerItemProxy */;
+		};
+		1E942B35110A3495F4342426524836EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 79CD2011951C630D93C31783455D446F /* SSZipArchive */;
+			targetProxy = 3FECABA756BC309A8D3A3612ADADBBA8 /* PBXContainerItemProxy */;
 		};
 		A334DDAE3C9905D3C7F4096EED062BED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LejiaSDKFramework;
-			target = 9E43D4D6840207D02F4BB26A7DAB44F4 /* LejiaSDKFramework */;
+			target = F369E690C3DD63C07646D261099C5B26 /* LejiaSDKFramework */;
 			targetProxy = 3950B52DEF18F3937298C1AE299EBEA0 /* PBXContainerItemProxy */;
 		};
 		A932D0313438400AF801A30ABEDE293B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SSZipArchive;
-			target = B9DF9483A1959AA844761A67623D23D4 /* SSZipArchive */;
+			target = 79CD2011951C630D93C31783455D446F /* SSZipArchive */;
 			targetProxy = C06F0F49AAF324AF28E6C32E95CD8B52 /* PBXContainerItemProxy */;
 		};
 		AF6CD1D1C98A3AF9495F513BEDD05913 /* PBXTargetDependency */ = {
@@ -882,9 +895,9 @@
 			};
 			name = Debug;
 		};
-		5CB85FB37F413CF24B69BE916DFFAF7F /* Debug */ = {
+		537245AB82D6686AD9B9FA02C7A66DF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5FB3592EFFE70FD0D2B155D3F5E7B91 /* LejiaSDKFramework.xcconfig */;
+			baseConfigurationReference = 209D71B685591372C0A75C0DBD5311AF /* SSZipArchive.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -895,14 +908,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework.modulemap";
-				PRODUCT_MODULE_NAME = LejiaSDKFramework;
-				PRODUCT_NAME = LejiaSDKFramework;
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -946,9 +959,9 @@
 			};
 			name = Release;
 		};
-		AFE5C680ABE001905002C5869E6C25BD /* Release */ = {
+		A6FC4811B3CD2882BA20529E0FCF2334 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5FB3592EFFE70FD0D2B155D3F5E7B91 /* LejiaSDKFramework.xcconfig */;
+			baseConfigurationReference = 209D71B685591372C0A75C0DBD5311AF /* SSZipArchive.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -959,14 +972,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework.modulemap";
-				PRODUCT_MODULE_NAME = LejiaSDKFramework;
-				PRODUCT_NAME = LejiaSDKFramework;
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1104,9 +1117,9 @@
 			};
 			name = Release;
 		};
-		C784775311E0809D1BA159C89BC25CA9 /* Debug */ = {
+		C9675E35B78B4C3DC930CFB30BA84D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 209D71B685591372C0A75C0DBD5311AF /* SSZipArchive.xcconfig */;
+			baseConfigurationReference = ADDD8AFEA8C399AD09CEE5C674D9F4DE /* LejiaSDKFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1117,14 +1130,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
-				PRODUCT_MODULE_NAME = SSZipArchive;
-				PRODUCT_NAME = SSZipArchive;
+				MODULEMAP_FILE = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework.modulemap";
+				PRODUCT_MODULE_NAME = LejiaSDKFramework;
+				PRODUCT_NAME = LejiaSDKFramework;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1198,9 +1211,9 @@
 			};
 			name = Debug;
 		};
-		E6BDDCF1C20E0E4BD93404CF008B1C12 /* Release */ = {
+		E879085F53FCAA6884CA1BAC2F47C7B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 209D71B685591372C0A75C0DBD5311AF /* SSZipArchive.xcconfig */;
+			baseConfigurationReference = ADDD8AFEA8C399AD09CEE5C674D9F4DE /* LejiaSDKFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1211,14 +1224,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
-				PRODUCT_MODULE_NAME = SSZipArchive;
-				PRODUCT_NAME = SSZipArchive;
+				MODULEMAP_FILE = "Target Support Files/LejiaSDKFramework/LejiaSDKFramework.modulemap";
+				PRODUCT_MODULE_NAME = LejiaSDKFramework;
+				PRODUCT_NAME = LejiaSDKFramework;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1265,11 +1278,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EC63F88A630FCA41303A12C9B4EC4A6 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+		04760107407CBD259AF738B93B5F9FDD /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C784775311E0809D1BA159C89BC25CA9 /* Debug */,
-				E6BDDCF1C20E0E4BD93404CF008B1C12 /* Release */,
+				537245AB82D6686AD9B9FA02C7A66DF3 /* Debug */,
+				A6FC4811B3CD2882BA20529E0FCF2334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1283,20 +1296,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A87C312D19FBC20908188B48940D223 /* Build configuration list for PBXNativeTarget "LejiaSDKFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5CB85FB37F413CF24B69BE916DFFAF7F /* Debug */,
-				AFE5C680ABE001905002C5869E6C25BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B25B719E035BFF8E1DA2476D62E64834 /* Build configuration list for PBXNativeTarget "Pods-LejiaSDKFramework_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F812C27124F60E1036EC5389EBF6A215 /* Debug */,
 				C02CB04C2FA632A6A6D367AAD2E41AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6BCCA8FBCD1499B684617CDF0A400B3 /* Build configuration list for PBXNativeTarget "LejiaSDKFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9675E35B78B4C3DC930CFB30BA84D3F /* Debug */,
+				E879085F53FCAA6884CA1BAC2F47C7B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

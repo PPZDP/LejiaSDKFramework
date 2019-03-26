@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/PPZDP/LejiaSDKFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'LejiaSDKFramework/Classes/**/*'
   
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'LejiaSDKFramework' => ['LejiaSDKFramework/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/CRAPI/*.h'
+  s.public_header_files = 'Pod/Classes/CRAPI/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'SSZipArchive', '~> 2.1.4'
    s.dependency 'CocoaAsyncSocket', '~> 7.6.3'

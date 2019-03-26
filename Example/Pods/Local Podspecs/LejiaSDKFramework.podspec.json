@@ -1,21 +1,22 @@
 {
   "name": "LejiaSDKFramework",
   "version": "0.1.0",
-  "summary": "carrobot iOS Screen Framework",
+  "summary": "Screen Framework for iOS",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sawrysc@163.com/LejiaSDKFramework",
+  "homepage": "https://github.com/PPZDP/LejiaSDKFramework",
   "license": "MIT",
   "authors": {
     "sawrysc@163.com": "jiarui.li@carrobot.com"
   },
   "source": {
-    "git": "https://github.com/sawrysc@163.com/LejiaSDKFramework.git",
+    "git": "https://github.com/PPZDP/LejiaSDKFramework.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
   "source_files": "LejiaSDKFramework/Classes/**/*",
+  "public_header_files": "Pod/Classes/CRAPI/*.h",
   "dependencies": {
     "SSZipArchive": [
       "~> 2.1.4"
